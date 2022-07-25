@@ -14,6 +14,7 @@ from datetime import timedelta
 from pathlib import Path
 import os
 from dotenv import load_dotenv
+import django_on_heroku
 
 load_dotenv()
 
@@ -147,3 +148,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+django_on_heroku.settings(locals())
