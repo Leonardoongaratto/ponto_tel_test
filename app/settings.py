@@ -29,6 +29,7 @@ SECRET_KEY = 'django-insecure-gbq_nax(8q-%@&7qkz$((w!5i-y2lg#7icxytdzm1*^=w#su8g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
 ALLOWED_HOSTS = ['https://test-ponto-tel.herokuapp.com/']
 
 
